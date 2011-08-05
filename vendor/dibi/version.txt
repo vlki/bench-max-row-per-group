@@ -1,0 +1,1 @@
+Dibi 1.5-rc1 (revision faf4445 released on 2011-01-25)
