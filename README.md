@@ -1,5 +1,5 @@
 MySQL benchmark of selecting max/min row per group
-##################################################
+==================================================
 
 Benchmark of few solutions mentioned in articles at xaprb.com:
 
