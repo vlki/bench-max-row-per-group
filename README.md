@@ -47,15 +47,15 @@ Results
 Run on computer with MySQL server 5.5.8 and processor AMD Athlon II X3 440.
 
     === Small dataset ===
-    correlatedSubquery: 0.0038859844207764 ms
-    selfJoin: 0.0026397705078125 ms
-    correlatedSubquery (price index): 0.0016379356384277 ms
-    selfJoin (price index): 0.0015709400177002 ms
+    correlatedSubquery: 0.0038859844207764 s
+    selfJoin: 0.0026397705078125 s
+    correlatedSubquery (price index): 0.0016379356384277 s
+    selfJoin (price index): 0.0015709400177002 s
 
     === Big dataset ===
-    correlatedSubquery: 45.861655950546 ms
-    selfJoin: 0.065365791320801 ms
-    correlatedSubquery (price index): 46.903476953506 ms
-    selfJoin (price index): 0.032746076583862 ms
+    correlatedSubquery: 45.861655950546 s
+    selfJoin: 0.065365791320801 s
+    correlatedSubquery (price index): 46.903476953506 s
+    selfJoin (price index): 0.032746076583862 s
 
 Price index means query on fruit table with index on price column.
